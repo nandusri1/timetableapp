@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Remainder</title>
+    <link rel="stylesheet" href="remainder.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <center><h1 id="heading">Remainder</h1></center>
+
+    <div id="ctime">
+        <h1 class="header">current time</h1>
+        <div class="square">
+          <div class="digits" id="chr">00</div>
+          <div class="text">HR</div>
+        </div>
+        <div class="square">
+          <div class="digits" id="cmin">00</div>
+          <div class="text">MIN</div>
+        </div>
+        <div class="square">
+          <div class="digits" id="csec">00</div>
+          <div class="text">SEC</div>
+        </div>
+      </div>
+      
+      <div id="tpick">
+        <h1 class="header">
+          set alarm
+        </h1>
+        <div id="tpick-h"></div>
+        <div id="tpick-m"></div>
+        <div id="tpick-s"></div>
+        <div>
+          <input type="button" value="Set" id="tset"/>
+          <input type="button" value="Reset" id="treset" disabled/>
+        </div>
+      </div>
+      
+     
+      <audio id="alarm-sound" loop>
+        <source src="Alarm-clock-bell-ringing-sound-effect.mp3" type="audio/mp3">
+      </audio>
+    
+
+   
+
+    <script src="remainder.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-group{
+    margin-top:30px;
+}
+.card-img-top{
+    width:400px;
+}
+#heading{
+    font-weight: 900;
+    color: rgb(24, 6, 21);
+    font-style:bold;
+    margin-top:20px;
+}
